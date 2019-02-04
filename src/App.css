@@ -30,3 +30,18 @@
     transform: rotate(360deg);
   }
 }
+
+select, button {
+  font-size: calc(10px + 1vmin);
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button {
+  width: 200px;
+}
+
+button:disabled {
+  background: grey;
+}
